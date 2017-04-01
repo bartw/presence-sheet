@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: nothing here...\""
+    "start": "webpack-dev-server --progress -d --colors --content-base ./public",
+    "build:dev": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/bartw/presence-sheet/issues"
   },
-  "homepage": "https://github.com/bartw/presence-sheet#readme"
+  "homepage": "https://github.com/bartw/presence-sheet#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
 }
