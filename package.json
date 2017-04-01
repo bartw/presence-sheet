@@ -1,0 +1,19 @@
+{
+  "name": "presence-sheet",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Error: nothing here...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartw/presence-sheet.git"
+  },
+  "author": "Bart Wijnants",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartw/presence-sheet/issues"
+  },
+  "homepage": "https://github.com/bartw/presence-sheet#readme"
+}
