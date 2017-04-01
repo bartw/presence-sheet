@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default function Participant({ name }) {
-    return (
-        <li>{name}</li>
-    );
+export default class Participant extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return <li>{this.props.name}</li>;
+    }
 }
